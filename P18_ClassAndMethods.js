@@ -14,7 +14,7 @@ class person{
 }
 
 //Bu calass'dan bir obje olusturma ve öğelere ulaşma(instance)
-const person1=new person('Ahmet',30,'Tester');
+const person1=new person('Ahmet',30);
 
 console.log(person1.great());
 console.log(person1.getAge());
